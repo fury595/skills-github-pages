@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact – Sapphire Circle</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0d0d0d;
+      color: white;
+    }
+
+    header {
+      background-color: #1a1a1a;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      color: #ff4da6;
+      font-size: 2em;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      padding: 0;
+      margin-top: 10px;
+    }
+
+    nav ul li {
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+
+    nav ul li a:hover {
+      color: #ff4da6;
+    }
+
+    .contact-section {
+      max-width: 800px;
+      margin: 50px auto;
+      background-color: #1a1a1a;
+      padding: 40px;
+      border-radius: 15px;
+    }
+
+    .contact-section h2 {
+      text-align: center;
+      color: #ff4da6;
+      margin-bottom: 30px;
+    }
+
+    .contact-info {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .contact-info p {
+      font-size: 1.1em;
+      line-height: 1.6;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    input, textarea {
+      padding: 12px;
+      margin-bottom: 20px;
+      border: none;
+      border-radius: 8px;
+      font-size: 1em;
+    }
+
+    button {
+      padding: 12px;
+      background-color: #ff4da6;
+      border: none;
+      color: white;
+      font-weight: bold;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    button:hover {
+      background-color: white;
+      color: #ff4da6;
+    }
+
+    footer {
+      background-color: #1a1a1a;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #aaa;
+    }
+
+    footer a {
+      color: #aaa;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Contact – Sapphire Circle</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="apropos.html">À propos</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="contact-section">
+    <h2>Nous contacter</h2>
+    <div class="contact-info">
+      <p>Tu souhaites devenir créatrice chez Sapphire Circle ? Tu as une question ou besoin de plus d'informations ?</p>
+      <p>Écris-nous à <strong><a href="mailto:agence.sapphirecircle@gmail.com">agence.sapphirecircle@gmail.com</a></strong> ou utilise le formulaire ci-dessous.</p>
+    </div>
+
+    <form action="#" method="post">
+      <input type="text" name="name" placeholder="Ton prénom" required>
+      <input type="email" name="email" placeholder="Ton email" required>
+      <textarea name="message" rows="6" placeholder="Ton message..." required></textarea>
+      <button type="submit">Envoyer le message</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 Sapphire Circle – Tous droits réservés | <a href="mailto:agence.sapphirecircle@gmail.com">agence.sapphirecircle@gmail.com</a>
+  </footer>
+
+</body>
+</html>
